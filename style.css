@@ -9,32 +9,30 @@ body {
 .image-wrapper {
     margin: 0;
     display: flex;
-    align-items: flex-start; /* Align to the top */
-    justify-content: flex-start; /* Align to the left */
+    align-items: flex-start;
+    justify-content: flex-start;
     min-height: 100vh;
-    flex-direction: column; /* Stack containers vertically */
+    flex-direction: column;
 }
 
 .photo-container {
     display: flex;
-    flex-wrap: wrap; /* Allow photos to wrap to the next line */
-    margin: 5px; /* Adjust the spacing between photos */
+    flex-wrap: wrap;
+    margin: 5px;
 }
 
 .photo {
-    height: 100px; /* Set the desired height */
+    height: 100px;
 }
 
 .photo-large {
-    flex: 1; /* Adjust the flex property for the larger photos */
-    margin-right: 5px; /* Adjust the spacing between photos */
+    flex: 1; 
+    margin-right: 5px; 
 }
 
 .photo-small {
-    flex: 1; /* Adjust the flex property for the smaller photos */
+    flex: 1; 
 }
-
-/* Additional styles to position the containers */
 .top-photos {
     margin-bottom: 10px;
 }
