@@ -1,0 +1,58 @@
+body {
+    background-color: burlywood;
+}
+
+.text-wrapper {
+    margin-left: 45px;
+}
+
+.image-wrapper {
+    margin: 0;
+    display: flex;
+    align-items: flex-start; /* Align to the top */
+    justify-content: flex-start; /* Align to the left */
+    min-height: 100vh;
+    flex-direction: column; /* Stack containers vertically */
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow photos to wrap to the next line */
+    margin: 5px; /* Adjust the spacing between photos */
+}
+
+.photo {
+    height: 100px; /* Set the desired height */
+}
+
+.photo-large {
+    flex: 1; /* Adjust the flex property for the larger photos */
+    margin-right: 5px; /* Adjust the spacing between photos */
+}
+
+.photo-small {
+    flex: 1; /* Adjust the flex property for the smaller photos */
+}
+
+/* Additional styles to position the containers */
+.top-photos {
+    margin-bottom: 10px;
+}
+
+.bottom-photos {
+    margin-top: 10px;
+}
+.image-wrapper{
+    margin-left: 40px;  
+}
+.myButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: burlywood;
+    color: black;
+    border:color(from color srgb r g b);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 150px;
+}
